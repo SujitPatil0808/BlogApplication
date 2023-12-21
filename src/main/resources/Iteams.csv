@@ -1,0 +1,201 @@
+﻿iteam_id,SellingPrice,iteam_name,units
+1,500,Smartphone,50
+2,1100,Laptop,30
+3,90,Headphones,45
+4,250,Smartwatch,20
+5,600,Tablet,60
+6,80,Bluetooth Speaker,55
+7,40,Wireless Mouse,10
+8,150,External Hard Drive,15
+9,400,VR Headset,40
+10,450,Gaming Console,5
+11,350,Monitor,22
+12,60,Keyboard,18
+13,550,Digital Camera,33
+14,150,Printer,48
+15,100,Router,12
+16,800,Smart TV,27
+17,600,Graphics Card,16
+18,100,Earbuds,25
+19,50,Power Bank,50
+20,90,Fitness Tracker,15
+21,70,Electric Shaver,30
+22,30,USB Flash Drive,40
+23,60,Webcam,20
+24,10,Mouse Pad,100
+25,80,In-Ear Monitors,35
+26,180,Portable SSD,25
+27,40,Wireless Charger,60
+28,50,Game Controller,18
+29,130,Graphics Tablet,12
+30,200,Compact Camera,10
+31,80,Wireless Keyboard,15
+32,130,Noise-Canceling Headphones,20
+33,220,Action Camera,8
+34,40,Desk Lamp,40
+35,200,External SSD,22
+36,100,Microphone,25
+37,110,Smart Thermostat,15
+38,130,E-book Reader,10
+39,60,Wi-Fi Range Extender,30
+40,350,Projector,8
+41,50,Smart Scale,45
+42,270,Digital Drawing Tablet,12
+43,200,Cordless Vacuum,18
+44,70,Wireless Earbuds,40
+45,30,Camera Tripod,30
+46,140,Fitness Smartwatch,25
+47,50,USB-C Hub,35
+48,100,RGB Gaming Keyboard,15
+49,150,Video Doorbell,10
+50,90,External Blu-ray Drive,12
+51,400,3D Printer,5
+52,60,Solar Power Bank,20
+53,20,Bluetooth Earpiece,30
+54,15,Smart Light Bulb,50
+55,50,Wireless Gaming Mouse,25
+56,90,Car Dash Cam,15
+57,10,Wireless Earphone Case,80
+58,90,USB-C Docking Station,10
+59,80,Gaming Headset,20
+60,50,Dual Monitor Stand,10
+61,200,Robotic Vacuum Cleaner,8
+62,150,Smart Door Lock,12
+63,30,Foldable Laptop Stand,25
+64,25,Bluetooth FM Transmitter,30
+65,70,USB Microphone,18
+66,130,Portable Photo Printer,15
+67,80,Home Security Camera,20
+68,60,Wireless Barcode Scanner,22
+69,35,External CD/DVD Drive,25
+70,300,USB-C External Monitor,5
+71,40,Bluetooth Keyboard,40
+72,80,Mini Projector,15
+73,30,Wireless Presenter,25
+74,50,Solar-Powered Charger,20
+75,120,Inkjet Printer,10
+76,20,Smart Plug,50
+77,15,USB Desk Fan,60
+78,10,Touchscreen Gloves,100
+79,30,LED Desk Lamp,30
+80,20,USB Wall Charger,40
+81,25,Travel Adapter,35
+82,90,Wireless Security Camera,12
+83,300,Portable Power Generator,5
+84,15,USB-C to HDMI Cable,60
+85,20,Bluetooth FM Radio,50
+86,200,Laser Printer,8
+87,40,Bluetooth Gamepad,25
+88,10,USB Type-C Cable,100
+89,60,External Webcam,15
+90,80,Smart Coffee Maker,18
+91,20,USB Hub,30
+92,30,Wireless Charging Pad,25
+93,10,Car Phone Mount,80
+94,50,Portable Air Purifier,20
+95,150,Bluetooth Motorcycle Helmet,10
+96,180,Wireless Barcode Printer,12
+97,15,USB LED Strip,50
+98,80,Outdoor Security Camera,15
+99,35,Smart Water Bottle,25
+100,20,USB-C Card Reader,40
+101,60,Bluetooth Sunglasses,18
+102,30,Mini Air Cooler,30
+103,200,Smart Mirror,8
+104,10,USB Rechargeable Fan,60
+105,50,Portable Solar Charger,20
+106,40,Bluetooth Karaoke Microphone,25
+107,20,Laptop Cooling Pad,50
+108,90,USB-C Power Bank,12
+109,30,Wireless Car Charger,35
+110,80,Smart Home Hub,15
+111,10,USB Flash Drive Case,80
+112,150,External Blu-ray Writer,10
+113,60,Bluetooth Fitness Tracker,18
+114,70,Wireless Gaming Keyboard,20
+115,40,USB-C Headphones,25
+116,900,Smart Refrigerator,2
+117,50,Bluetooth Barcode Scanner,15
+118,30,Wireless Presentation Clicker,30
+119,15,USB Desk Organizer,50
+120,80,Portable Bluetooth Printer,10
+121,130,Smart Pet Feeder,8
+122,20,Bluetooth Mouse,60
+123,100,USB-C Laptop Docking Station,12
+124,25,Wireless Charging Mouse Pad,35
+125,29,Smart Curtain System,35
+126,10,USB Desk Heater,100
+127,35,Car Bluetooth Adapter,25
+128,50,Wireless Backup Camera,20
+129,30,USB-C Travel Charger,30
+130,60,Bluetooth Sleep Mask,18
+131,90,Portable Espresso Maker,15
+132,40,Smart Plant Pot,25
+133,15,USB-C to Ethernet Adapter,50
+134,50,Wireless Keyboard and Mouse Combo,15
+135,20,Bluetooth FM Transmitter for Car,40
+136,80,USB-C External Hard Drive,10
+137,30,Smart Light Switch,35
+138,70,Portable UV-C Sanitizer,20
+139,60,Wireless Charging Desk Lamp,18
+140,10,Bluetooth GPS Tracker,80
+141,35,USB-C to DisplayPort Cable,25
+142,80,Smart Garbage Can,15
+143,50,Wireless Sport Earphones,20
+144,100,USB-C Docking Station with Power Delivery,12
+145,25,Bluetooth Air Purifier,30
+146,15,Portable Hand Warmer,50
+147,130,Smart Doorbell Camera,8
+148,90,Wireless Charging Nightstand,10
+149,40,USB-C Gaming Mouse,25
+150,20,Bluetooth Folding Keyboard,60
+151,60,Smart Smoke Detector,18
+152,80,Portable Bluetooth Karaoke Speaker,15
+153,30,Wireless Charging Alarm Clock,35
+154,10,USB-C Car Charger,100
+155,35,Bluetooth RGB Light Bulb,25
+156,150,Smart Door Lock with Fingerprint Scanner,10
+157,50,Wireless Charging Mouse,20
+158,20,USB-C to VGA Adapter,40
+159,60,Bluetooth Bike Speaker,15
+160,90,Portable Jump Starter,12
+161,130,Smart Window Blinds,8
+162,30,USB-C Magnetic Charger,30
+163,15,Wireless Charging Coaster,50
+164,80,Bluetooth Game Controller,10
+165,25,USB-C External DVD Drive,35
+166,40,Smart Mug,25
+167,50,Portable Photo Scanner,20
+168,70,Wireless Charging Desk Organizer,18
+169,100,Bluetooth Bookshelf Speakers,15
+170,10,USB-C to USB-A Adapter,80
+171,60,Smart Trash Can,25
+172,90,Wireless Charging Floor Lamp,12
+173,30,Bluetooth Keyboard Case for iPad,30
+174,50,Portable Electric Grill,20
+175,20,USB-C Multiport Adapter,35
+176,150,Smart Glasses,10
+177,80,Wireless Charging Backpack,15
+178,40,Bluetooth Printer for iPhone,25
+179,10,USB-C Audio Adapter,60
+180,30,Portable Car Vacuum,18
+181,60,Smart Umbrella,12
+182,100,Wireless Charging Vanity Mirror,8
+183,50,Bluetooth Digital Drawing Pen,20
+184,25,USB-C Hub with HDMI,30
+185,130,Smart Ceiling Fan,10
+186,90,Wireless Charging Keyboard,15
+187,35,Bluetooth Instant Photo Printer,25
+188,20,USB-C Power Strip,40
+189,70,Portable Blender,18
+190,60,Smart Refrigerator Magnet,22
+191,50,Wireless Charging Laptop Stand,15
+192,30,Bluetooth Car Diagnostic Tool,25
+193,180,USB-C SSD External Hard Drive,12
+194,40,Smart Wall Clock,30
+195,80,Wireless Charging Bedside Table,10
+196,25,Bluetooth Fitness Earbuds,35
+197,15,USB-C to 3.5mm Headphone Adapter,50
+198,50,Portable Solar Lantern,20
+199,90,Smart Wi-Fi Thermostat,15
+200,20,Wireless Charging Pen Holder,25
