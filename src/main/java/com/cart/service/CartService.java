@@ -10,8 +10,8 @@ public interface CartService {
 	// Create Cart 
 	CartDto crateCart(CartDto cartdto );
 	
-	// Add Item to Cart
-	CartDto assignItemToCart(Integer cartId,Integer userId);
+	// Assign cart to user
+	CartDto assignCreatedCartToUser(Integer cartId,Integer userId);
 	
 	// Get Cart By UserId
 	CartDto getCartByUserId(Integer userId);

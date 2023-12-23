@@ -40,7 +40,7 @@ public class User {
 	
 	private String phoneNo;
 	
-	@OneToOne(mappedBy = "user")
+	@OneToOne(mappedBy = "user",cascade = CascadeType.ALL,fetch = FetchType.EAGER)
 	private Cart userCart;
 	
 	@ManyToMany(cascade =CascadeType.ALL,fetch = FetchType.EAGER)

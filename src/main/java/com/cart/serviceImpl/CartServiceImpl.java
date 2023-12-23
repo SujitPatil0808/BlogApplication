@@ -41,7 +41,7 @@ public class CartServiceImpl implements CartService{
 	}
 
 	@Override
-	public CartDto assignItemToCart(Integer cartId, Integer userId) {
+	public CartDto assignCreatedCartToUser(Integer cartId, Integer userId) {
 		log.info("Entering The Dao Call For Create  Cart With User Id :{} ",userId);
 		User user = this.userRepository.findById(userId).
 				orElseThrow(()-> new ResourceNotFoundException(AppConstants.NOT_FOUND+userId));

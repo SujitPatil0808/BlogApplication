@@ -36,6 +36,5 @@ public class BillDto {
 
 	private String phoneNo;
 
-	private List<Iteam> allItems;
-
+	
 }

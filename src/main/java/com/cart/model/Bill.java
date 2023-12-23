@@ -43,7 +43,7 @@ public class Bill {
 
 	private String phoneNo;
 
-	@OneToMany(mappedBy = "bill")
-	private List<Iteam> allItems;
+	
+	
 
 }

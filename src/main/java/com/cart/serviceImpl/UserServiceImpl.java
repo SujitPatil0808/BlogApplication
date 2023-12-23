@@ -9,8 +9,12 @@ import org.springframework.stereotype.Service;
 
 import com.cart.constants.AppConstants;
 import com.cart.exception.ResourceNotFoundException;
+import com.cart.model.Cart;
+import com.cart.model.Iteam;
 import com.cart.model.User;
+import com.cart.payload.CartDto;
 import com.cart.payload.UserDto;
+import com.cart.repository.CartRepository;
 import com.cart.repository.UserRepository;
 import com.cart.service.UserServiceI;
 
@@ -19,6 +23,9 @@ public class UserServiceImpl implements UserServiceI {
 	
 	@Autowired
 	private UserRepository repository;
+	
+	@Autowired
+	private CartRepository cartRepository;
 	
 	@Autowired
 	private ModelMapper mapper;
@@ -37,6 +44,8 @@ public class UserServiceImpl implements UserServiceI {
 			
 		User user = this.repository.findById(userId).
 		orElseThrow(()-> new ResourceNotFoundException(AppConstants.NOT_FOUND+userId));
+		
+		
 		
 		return this.mapper.map(user, UserDto.class);
 	}

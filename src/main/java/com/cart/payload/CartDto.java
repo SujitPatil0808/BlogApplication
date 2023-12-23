@@ -2,7 +2,7 @@ package com.cart.payload;
 
 import java.util.List;
 
-
+import com.cart.model.User;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -20,5 +20,7 @@ public class CartDto {
 	private Integer cartId;
 
 	private List<IteamDto> iteams;
+	
+	
 
 }

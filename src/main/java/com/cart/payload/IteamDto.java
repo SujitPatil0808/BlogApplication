@@ -1,5 +1,7 @@
 package com.cart.payload;
 
+import com.cart.model.Cart;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -18,5 +20,7 @@ public class IteamDto {
 	private Integer SellingPrice;
 
 	private Integer units;
+	
+//	private CartDto cart;
 
 }

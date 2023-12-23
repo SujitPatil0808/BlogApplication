@@ -7,6 +7,7 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
+import com.cart.model.Cart;
 import com.cart.model.Roles;
 
 import lombok.AllArgsConstructor;
@@ -34,6 +35,8 @@ public class UserDto {
 	
 	@NotBlank(message = "Name Must Not Be Blank")
 	private String phoneNo;
+	
+	private CartDto userCart;
 
 //	private Set<Roles> roles = new HashSet<>();
 }

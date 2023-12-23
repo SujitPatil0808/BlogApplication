@@ -35,9 +35,9 @@ public class CartController {
 	}
 	
 	@PostMapping("/cartId/{cartId}/userId/{userId}")
-	public ResponseEntity<CartDto> assignItemToUser(@PathVariable Integer cartId,@PathVariable Integer userId){
+	public ResponseEntity<CartDto> assignCreatedCartToUser(@PathVariable Integer cartId,@PathVariable Integer userId){
 		log.info("Entering The Request For Save Cart With User Id :{}",userId);
-		CartDto cart = this.cartService.assignItemToCart(cartId, userId);
+		CartDto cart = this.cartService.assignCreatedCartToUser(cartId, userId);
 		log.info("Completed The Request For Save Cart With User Id :{}",userId);
 		 return new ResponseEntity<CartDto>(cart,HttpStatus.CREATED);
 		

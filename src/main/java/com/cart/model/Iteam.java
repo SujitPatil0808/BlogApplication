@@ -30,8 +30,8 @@ public class Iteam {
 	@ManyToOne
 	private Cart cart;
 	
-	@ManyToOne
-	private Bill bill;
+	
+	
 
 	
 	
