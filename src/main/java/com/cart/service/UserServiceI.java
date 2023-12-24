@@ -2,6 +2,7 @@ package com.cart.service;
 
 import java.util.List;
 
+import com.cart.model.User;
 import com.cart.payload.UserDto;
 
 
@@ -18,5 +19,9 @@ public interface UserServiceI {
 	void deleteUser(Integer userId);
 	
 	List<UserDto> getAllUsers();
+	
+	UserDto findByEmail(String email);
+	
+	UserDto registerNewUser(UserDto userDto);
 
 }

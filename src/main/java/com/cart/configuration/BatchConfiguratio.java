@@ -45,6 +45,8 @@ public class BatchConfiguratio {
 		
 		fileItemReader.setLineMapper(getLineMapper());
 		
+		fileItemReader.setStrict(true);
+		
 		fileItemReader.setLinesToSkip(1);
 		
 		return fileItemReader;

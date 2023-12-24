@@ -60,7 +60,11 @@ public class UserController {
 		return new ResponseEntity<List<UserDto>>(allUsers,HttpStatus.OK);
 	}
 	
-	
+	@GetMapping("/email/{email}")
+	public ResponseEntity<UserDto> getUserById(	@PathVariable	String email){
+		UserDto user = this.userServiceI.findByEmail(email);
+		return new ResponseEntity<UserDto>(user,HttpStatus.OK);
+	}
 	
 	
 	
