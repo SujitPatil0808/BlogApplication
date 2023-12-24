@@ -41,7 +41,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 	}
 	public static final String[] PUBLIC_URLS = { 
-			"/api/auth/**",
+			"/auth/**",
 			"/webjars/**"
 			
 
@@ -52,16 +52,22 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception {
 		// This is Our Basic Authentication
 		// It will give response in javascript form
-		http.csrf().disable().authorizeHttpRequests()
-	   .antMatchers(PUBLIC_URLS).permitAll().
-	    antMatchers(HttpMethod.GET).permitAll().anyRequest()
-		.authenticated().and().exceptionHandling()
+		http.csrf().disable()
+		.authorizeHttpRequests()
+	   .antMatchers(PUBLIC_URLS)
+	   .permitAll().
+	    antMatchers(HttpMethod.GET)
+	    .permitAll()
+	    .anyRequest()
+		.authenticated()
+		.and().exceptionHandling()
 		.authenticationEntryPoint(this.jwtAuthenticationEnrtyPoint)
 		.and().sessionManagement()
 		.sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 
-		http.addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
-		super.configure(http);
+		http.addFilterBefore(jwtAuthenticationFilter, 
+				UsernamePasswordAuthenticationFilter.class);
+//		super.configure(http);
 	}
 
 
